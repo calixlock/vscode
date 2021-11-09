@@ -6,7 +6,8 @@ class Note(object):
     def __add__(self, other):
         return self.content + other.content
     def __str__(self):
-        return self.content
+        # return self.content
+        return  f"노트에 적힌 내용 >> {self.content}"
     def write_content(self,content):
         self.content = content
     def remove_all(self):
