@@ -1,4 +1,4 @@
-import pygame
+import pygame 
 
 pygame.init() # (반드시) 초기화 
 
@@ -9,7 +9,7 @@ screen = pygame.display.set_mode((480,640)) #(가로,세로)
 pygame.display.set_caption("test") # 게임 이름
 
 ## 배경이미지 
-background = pygame.image.load("")
+background = pygame.image.load("C:/Users/amj41/OneDrive/바탕 화면/git/vscode/py_game/background_test.png")
 
 
 
@@ -22,7 +22,7 @@ while running:
     for event in pygame.event.get():  # 어떤 이벤트 발생했는가 ?
         if event.type == pygame.QUIT: # 창 닫히는 이벤트 발생했는가 ?
             running = 0 # false
-
+     screen.blit(background, (0,0)) # 배경이미지 위치설정
 
 # 종료
 pygame.quit()
