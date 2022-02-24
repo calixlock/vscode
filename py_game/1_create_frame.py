@@ -1,3 +1,5 @@
+## 참고 사이트 : https://www.youtube.com/watch?v=Dkx8Pl6QKW0&list=PLMsa_0kAjjrd8hYYCwbAuDsXZmHpqHvlV&index=2
+
 import pygame
 
 pygame.init() # (반드시) 초기화 
