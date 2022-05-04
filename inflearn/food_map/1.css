@@ -1,0 +1,21 @@
+/* 우선순위  id > class = attribute > tag */
+/* h태긔의 id로 분별 */
+#green{color:green;}
+
+
+h3{color:red;}
+
+/* h태그의 class로 분별 */
+.blue{color:blue;}
+
+[href = "http://www.google.com"]
+{
+    background-color: gray;
+}
+[href = "http://www.naver.com"]
+{
+    background-color: greenyellow;
+}
+p:hover{
+    background-color:black
+}

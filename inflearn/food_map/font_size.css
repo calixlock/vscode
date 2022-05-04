@@ -1,0 +1,14 @@
+html{
+    font-size:  10px;
+}
+p{
+    font-size:  30px;
+    color: rgb(55, 124, 66, 0.7)
+}
+.rems{
+    font-size: 2rem;
+}
+
+.ems li{
+    font-size: 1.2em;
+}
