@@ -1,0 +1,53 @@
+@media all and (min-width:1024px){
+    .inner{
+        
+        max-width: 1024px;
+        margin:0 auto;
+    }
+}
+
+@font-face {
+    font-family: 'YUniverse-B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_yuniverse@1.0/YUniverse-B.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SBAggroL';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroL.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: 'YUniverse-B';
+}
+
+nav{
+    background-color: rgb(246 187 67);
+    color: black;
+}
+.nav-container{
+    padding: 1rem;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-contact{
+    background : none;
+    font-family: inherit;
+    color: inherit;
+    border : 0;
+    cursor : pointer;
+
+}
